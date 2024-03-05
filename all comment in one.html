@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+    <base href="https://w3schools.com//" target="_blank">
+</head>
+
+<body>
+    <area shape="poly" coords="260,96,209,249,130,138" href=" https://developer.mozilla.org/docs/web/html"
+        target="_blank" alt="HTML">
+    <article> Define an article</article>
+    <p>My family and I altogether bed visited The Epcot center this summer. The weather was nice, and Epcot was amazing!
+        I had a great summer together with my family! </p>
+    <aside>
+        <h1> Epcot Center</h1>
+        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions,
+            award-winning fireworks however to work and seasonal special events.</p>
+    </aside>
+    <audio controls>
+        <source src="horse.ogg" type="audio/ogg">
+        <source src="horse.mp3" type="audio/mpeg">
+    </audio>
+
+    <img src="images/stickman.gif" width="24" height="39" alt="Stickman">
+    <a href="tags/tag_base.asp">HTML base Tag</a>
+    <ul>
+        <li>Text Item 1</li>
+    </ul>
+    <li> user <bdi> hrefs</bdi>: 60 points</li>
+    <li> user <bdi>jdoe</bdi>: 80 points</li>
+    <li> user <bdi>abc</bdi>: 90 points </li>
+    </ul>
+
+    <bdo dir="rtl">
+        This text will go right to left.
+    </bdo>
+    <!----	blockquote -- Defines a section that is quoted from another source-->
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+        For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF
+        works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million
+        globally.
+    </blockquote>
+    <!--Defines a clickable button-->
+    <button type="button">Click Me!</button>
+
+    <!--	Used to draw graphics, on the fly, via scripting (usually JavaScript)-->
+    <canvas id="myCanvas">
+        Your browser does not support the canvas tag.
+    </canvas>
+    <script>
+        let canvas = document.getElementById("myCanvas");
+        let ctx = canvas.getContext.("2d");
+        ctx.fillStyle = "#FF0000";
+        ctx.fillRect(0, 0, 80, 80);
+
+    </script>
+
+    <!--Defines a table caption-->
+    <table>
+        <caption>Monthly saving</caption>
+        <tr>
+            <th> Monthly</th>
+            <th>saving</th>
+        </tr>
+        <tr>
+            <td>January</td>
+            <td>Febuary</td>
+        </tr>
+
+    </table>
+    <!--Define the title of a work with the <cite> tag:-->
+    <p> <cite>The Scream</cite> by enward munch, Painted in 1893</p>
+
+</body>
+
+</html>

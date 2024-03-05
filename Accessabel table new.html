@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessable table</title>
+</head>
+<style>
+    table {
+        width: 500px;
+        height: 50px;
+        border: 1px solid black;
+        border-spacing: 2px;
+    }
+
+    table,
+    tr,
+    td {
+        border: 3px solid black;
+        width: 500px;
+        height: 50px;
+
+    }
+
+    tr,
+    td {
+        text-align: center;
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+</style>
+
+<body style="background-color: darkgray;">
+    <main>
+        <table>
+            <caption>STUDENT INFORMATION</caption>
+            <THead>
+                <colgroup>
+                    <col span="3" style="background-color: rgb(221, 115, 9);">
+                </colgroup>
+                <tr>
+                    <! scope="col" use korle table ta accessability bere jay>
+                        <th scope="col">ID</th>
+                        <th scope="col">NAME</th>
+                        <th scope="col">PHONE NUMBER</th>
+                </tr>
+            </THead>
+            <TBODy>
+                <tr>
+                    <td scope="col">1024</td>
+                    <td>Tamim Khan</td>
+                    <td>01630563352</td>
+                </tr>
+                <tr>
+                    <td scope="col">1025</td>
+                    <td>Hanna Khan</td>
+                    <td>015514511</td>
+                </tr>
+                <tr>
+                    <td scope="col">1028</td>
+                    <td>Mannan Khan</td>
+                    <td>1474444</td>
+                </tr>
+                <tr>
+                    <td scope="col">1029</td>
+                    <td>Salauddin Khan</td>
+                    <td>0241485552</td>
+                </tr>
+            </TBODy>
+        </table>
+    </main>
+</body>
+
+</html>

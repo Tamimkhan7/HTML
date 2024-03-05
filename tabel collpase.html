@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML TABLE</title>
+</head>
+<style>
+    table,
+    tr,
+    th {
+        width: 400px;
+        height: 100px;
+        border: 3px solid black;
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+</style>
+
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>NAME</th>
+                <th colspan="2">PHONE NUMBER</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>1012</th>
+                <th>Tamim khan</th>
+                <th>017</th>
+                <th rowspan="2">018</th>
+            </tr>
+            <tr>
+                <th>1026</th>
+                <th>Hanna khan</th>
+                <th>019</th>
+
+            </tr>
+            <tr>
+                <th>1053</th>
+                <th>Manna khan</th>
+                <th>016</th>
+                <th>019</th>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
