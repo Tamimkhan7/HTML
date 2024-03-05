@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACCESSABEL TABLE</title>
+</head>
+<style>
+    table th,
+    td {
+        border: 3px solid black;
+        width: 150px;
+        height: 100px;
+    }
+    th,
+    td {
+        text-align: center;
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+</style>
+
+<body>
+    <table>
+        <caption>STUDENT INFORMATION</caption>
+        <colgroup>
+            <col span="3" style="background-color: aqua;">
+        </colgroup>
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">GPA</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1025</td>
+                <td>Tamim khan</td>
+                <th colspan="2">3.25</td>
+            </tr>
+            <tr>
+                <th scope="row">1024</td>
+                <th rowspan="2">Hanif khan</td>
+                <td>3.75</td>
+            </tr>
+            <tr>
+                <th scope="row">1054</td>
+                <td>3.95</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
